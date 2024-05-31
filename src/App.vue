@@ -82,6 +82,7 @@ export default {
     <!-- <p>{{ (film.vote_average / 2).toFixed(2) }}</p> -->
     <p>Voto: {{ getVote(film.vote_average) }}</p>
     <p>
+      <!-- si può fare lo stesso con un v-for? -->
       <i :class="getStars(film.vote_average, 1)"></i>
       <i :class="getStars(film.vote_average, 2)"></i>
       <i :class="getStars(film.vote_average, 3)"></i>
