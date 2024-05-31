@@ -89,8 +89,8 @@ export default {
       <i :class="getStars(film.vote_average, 5)"></i>
     </p>
 
-    <!-- <img v-if="getFlag(film.original_language)" class="flag" :src="getFlag(film.original_language)" />
-    <p v-else>{{ film.original_language }}</p> -->
+    <img v-if="getFlag(film.original_language)" class="flag" :src="getFlag(film.original_language)" />
+    <p v-else>{{ film.original_language }}</p>
 
   </div>
 
